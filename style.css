@@ -1,0 +1,239 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap');
+
+/*BODY*/
+body {
+    background-color: #E8F0EC;
+}
+
+/*NAVBAR*/
+.navbar {
+    z-index: 10;
+    background-color: white;
+    width: 98.5vw;
+    height: 16vh;
+    top: 0;
+    text-align: right;
+    position: fixed;
+    margin: 1.5797788309636651vh 0.7320644216691069vw 0.7320644216691069vw 1.5797788309636651vh;
+    border-radius: 30px;
+}
+
+#tabs {
+    float: right;
+    margin-top: 4.5vh;
+    margin-bottom: 2vh;
+    margin-right: 1.5vw;
+    text-decoration: none;
+    font-size: 5vh;
+    font-weight: bold;
+    font-family:'Inconsolata', sans-serif;
+    text-transform: uppercase;
+    font-weight: 2vw;
+}
+
+#tabs a {
+    margin-right: 2vw;
+    padding: 1.2vh 0.5vw;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+#tabs a:hover {
+    padding: 1.2vh 0.5vw;
+    border-radius: 0.5vw;
+    background-color: #1f7a9ea9;
+    color: #ffffff;
+    transition: 0.25s;
+}
+
+#logo img{
+    float: left;
+    width: 8vw;
+    height: 15.6vh;
+    margin-left: 1vw;
+}
+
+/*FOOTER*/
+footer {
+    background-color: rgb(108, 131, 109);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 20vh;
+}
+
+.socials {
+    color: rgb(0, 0, 0);
+    margin: 20px;
+    font-family: 'Inconsolata', sans-serif;
+    font-size: 20px;
+    font-weight: lighter;
+    text-transform: uppercase;
+}
+
+.insta {
+    background: url('media/sprite.png') no-repeat -36px -30px;
+	width: 128px;
+	height: 128px;
+    color: white;
+}
+
+/*PAGE1*/
+video {
+    position: fixed;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.cont_bg {
+    background-color: rgba(0, 0, 0, 0.35);
+    position: relative;
+    top: 20vh;
+    width: 100vw;
+    height: 69vh;
+}
+
+.content {
+    top: 30vh;
+    padding: 5.529225908372828vh;
+    margin: 5vw;
+    text-align: center;
+    font-family:'Inconsolata', sans-serif;
+    font-size: 5vh;
+    color: white;
+}
+
+.subcontent {
+    margin-top: 5vh;
+    font-size: 3vh;
+    text-align: left;
+}
+
+/*PAGE2*/
+.container {
+    position: relative;
+    margin: 5vh 5vw;
+    margin-bottom: 50vh;
+    top: 20vh;
+}
+.cont1 {
+    margin-top: 5vh;
+    font-family: 'Inconsolata', sans-serif;
+    font-size: 5vh;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.txt1 {
+    font-size: 3vh;
+    font-weight: lighter;
+    text-indent: 5vw;
+}
+
+/*PAGE3*/
+.box_container {
+    margin-top: 50px;
+    margin-left: 50px;
+    margin: 20px;
+    display: flex;
+}
+
+.box1 {
+    align-items: flex-start;
+    background-color: #D9D9D9;
+    border-radius: 6.003159557661927vh;
+    margin-right: 2.5vw;
+    padding: 0.7898894154818326vh;
+    position: relative;
+    top: 20vh;
+    width: 30.74670571010249vw;
+    height: 70vh;
+}
+
+.box_content1 {
+    margin: 20px;
+    font-family: 'Inconsolata', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.box_text1 {
+    margin-top: 10px;
+    font-family: 'Inconsolata', sans-serif;
+    font-size: 20px;
+    font-weight: lighter;
+    text-indent: 40px;
+}
+
+.box2 {
+    align-items: flex-start;
+    background-color: #D9D9D9;
+    border-radius: 6.003159557661927vh;
+    margin-right: 2.5vw;
+    padding: 0.7898894154818326vh;
+    position: relative;
+    top: 20vh;
+    width: 30.74670571010249vw;
+    height: 70vh;
+}
+
+.box_content2 {
+    margin: 20px;
+    font-family: 'Inconsolata', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.box_text2_vision {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'Inconsolata', sans-serif;
+    font-size: 20px;
+    font-weight: lighter;
+    text-indent: 40px;
+}
+
+.box_text2_mission {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'Inconsolata', sans-serif;
+    font-size: 20px;
+    font-weight: lighter;
+    text-indent: 40px;
+}
+
+.box3 {
+    align-items: flex-start;
+    background-color: #D9D9D9;
+    border-radius: 6.003159557661927vh;
+    margin-right: 2.5vw;
+    padding: 0.7898894154818326vh;
+    position: relative;
+    top: 20vh;
+    width: 30.74670571010249vw;
+    height: 70vh;
+}
+
+.box_content3 {
+    margin: 20px;
+    font-family: 'Inconsolata', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.box_text3 {
+    margin-top: 10px;
+    font-family: 'Inconsolata', sans-serif;
+    font-size: 20px;
+    font-weight: lighter;
+    text-indent: 40px;
+}
